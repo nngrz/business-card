@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/business-card/static/js/main.9bef85a1.js",
+    "index.html": "/business-card/index.html",
+    "main.9bef85a1.js.map": "/business-card/static/js/main.9bef85a1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9bef85a1.js"
+  ]
+}
