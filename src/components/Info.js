@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 
 export default function Info() {
     return (
         <div className="info--container">
-            <img src="../images/profile.jpg" className="info--image" />
+            <img src= "images/profile.jpg" className="info--image" />
             <h1 className="info--name">Ningrui Zhang</h1>
             <p className="info--role"> Frontend Developer</p>
             <p className="info--website">nngrz</p>

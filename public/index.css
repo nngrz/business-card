@@ -82,12 +82,6 @@ body {
 }
 
 button {
-    /* display and box model */
-    width: 115px;
-    height: 34px;
-    border-radius: 6px;
-
-    /* text */
     font-size: 14px;
     font-weight: 500;
 }
@@ -97,10 +91,18 @@ button > i {
 }
 
 .btn--email {
+    /* display and box model */
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
     border: 1px solid #D1D5DB;
 }
 
 .btn--linkedin {
+    /* display and box model */
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
     border: 0;
 
     /* color */
@@ -140,4 +142,30 @@ button > i {
 
 .icons > img {
     width: 25px;
+}
+
+.portfolio--container {
+    margin-top: 27px;
+}
+
+.portfolio--title {
+    margin-bottom: 5px;
+}
+
+.portfolio--link-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio--link {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #DCDCDC;
+}
+
+.portfolio--btn {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
 }
