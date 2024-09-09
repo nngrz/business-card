@@ -1,10 +1,10 @@
 {
-  "homepage": "https://nngrz.github.io/business-card",
+  "homepage": ".",
   "name": "react-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "PUBLIC_URL=.; react-scripts start",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
