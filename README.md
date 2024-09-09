@@ -63,3 +63,7 @@ After running npm run deploy, GitHub will automatically serve your app from the 
 
 Additional Notes:
 If you’re using a custom domain or need to troubleshoot, make sure your repository settings have GitHub Pages enabled under the "Settings" > "Pages" tab.
+
+## how to resolve image and CSS path conflict for local and GitHub page environment:
+if local environment doesn't work, try to change "homepage" value to ".".
+if GitHub page doesn't work, try to redo the deployment
