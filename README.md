@@ -4,12 +4,6 @@
 
     Link for the digital business card: https://nngrz.github.io/business-card.
 
-
-## what I have learned:
-1. Set up a local development environment on my computer for React development.
-2. Deploy a React app to GitHub Pages for public access.
-3. Manage and resolve path conflicts when switching between GitHub Pages and local development environments.
-
 ## Deployment
 1. Type run npm install which will install GH pages
 2. Build and Deploy the App
