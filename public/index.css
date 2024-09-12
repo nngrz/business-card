@@ -171,3 +171,10 @@ button > i {
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%; /* Adjust the width to be wider */
+      padding: 10px; /* Add some padding */
+    }
+}
