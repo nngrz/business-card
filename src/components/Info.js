@@ -9,10 +9,14 @@ export default function Info() {
             <p className="info--website">nngrz</p>
             <div className="info--buttons">
                 <a href="mailto:ningrui1227@gmail.com" className="btn--email">
-                    <button className="btn--email"><i className="fa fa-envelope"></i> Email</button>
+                    <button className="btn--email">
+                        <i className="fa fa-envelope email-icon"></i>Email
+                    </button>
                 </a>
                 <a href="https://www.linkedin.com/in/ningrui-zhang1227" target="_blank" rel="noopener noreferrer">
-                    <button className="btn--linkedin"><i className="fa fa-linkedin-square" style={{size:"16px",color:"white"}}></i>LinkedIn</button>
+                    <button className="btn--linkedin">
+                        <i className="fa fa-linkedin-square linkedin-icon"></i>LinkedIn
+                    </button>
                 </a>
             </div>
         </div>

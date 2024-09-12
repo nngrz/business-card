@@ -29,6 +29,8 @@ body {
     background-color: #1A1B21;
 }
 
+/* info */
+
 .info--image {
     height: 317px;
     margin: auto;
@@ -99,6 +101,10 @@ button > i {
     border: 1px solid #D1D5DB;
 }
 
+.email-icon {
+    font-size: 16px;
+}
+
 .btn--linkedin {
     /* display and box model */
     width: 115px;
@@ -110,6 +116,13 @@ button > i {
     background-color: #5093E2;
     color: white;
 }
+
+.linkedin-icon {
+    font-size: 16px;
+    color: white;
+}
+
+/* main */
 
 .main {
     /* display and box model */
@@ -132,18 +145,6 @@ button > i {
 
 .interest--container {
     margin-top: 27px;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 73px;
-    background-color: #161619;
-    cursor: pointer;
-}
-
-.icons > img {
-    width: 25px;
 }
 
 .portfolio--container {
@@ -170,6 +171,21 @@ button > i {
     font-size: 10px;
     text-decoration: none;
     color: black;
+}
+
+/* footer */
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 73px;
+    background-color: #161619;
+    cursor: pointer;
+}
+
+.icons img, .icons .icon-github {
+    width: 30px;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
