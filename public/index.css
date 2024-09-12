@@ -84,6 +84,7 @@ body {
 button {
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 button > i {
@@ -138,6 +139,7 @@ button > i {
     justify-content: space-between;
     padding: 20px 73px;
     background-color: #161619;
+    cursor: pointer;
 }
 
 .icons > img {
