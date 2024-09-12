@@ -84,6 +84,7 @@ body {
 button {
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 button > i {
@@ -138,6 +139,7 @@ button > i {
     justify-content: space-between;
     padding: 20px 73px;
     background-color: #161619;
+    cursor: pointer;
 }
 
 .icons > img {
@@ -168,4 +170,11 @@ button > i {
     font-size: 10px;
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%; /* Adjust the width to be wider */
+      padding: 10px; /* Add some padding */
+    }
 }
