@@ -157,20 +157,89 @@ button > i {
 
 .portfolio--link-container {
     display: flex;
+    flex-direction: column;
+} 
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.portfolio--link {
+.project--link {
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     color: #DCDCDC;
 }
 
-.portfolio--btn {
+.project--btn {
     font-size: 10px;
     text-decoration: none;
     color: black;
+}
+
+.project--technologies-bar {
+    display: flex;
+    height: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    white-space: nowrap;
+}
+  
+.bar.js-react-notes {
+    width: 51.6%;
+    background-color: #f1c40f;
+}
+  
+.bar.css-react-notes {
+    width: 40.1%;
+    background-color: #8e44ad;
+}
+  
+.bar.html-react-notes {
+    width: 8.3%;
+    background-color: #e74c3c;
+}
+
+.technologies--legend {
+    display: flex;
+    gap: 15px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.legend-color.js {
+    background-color: #f1c40f;
+}
+  
+  .legend-color.css {
+    background-color: #8e44ad;
+}
+  
+  .legend-color.html {
+    background-color: #e74c3c;
 }
 
 /* footer */
