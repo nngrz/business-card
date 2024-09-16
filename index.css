@@ -126,7 +126,6 @@ button > i {
 /* main */
 
 .main {
-    /* display and box model */
     padding: 33px 35px;
 }
 
@@ -158,17 +157,25 @@ button > i {
 
 .portfolio--link-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.portfolio--link {
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+
+.project--link {
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     color: #DCDCDC;
 }
 
-.portfolio--btn {
+.project--btn {
     font-size: 10px;
     text-decoration: none;
     color: black;
