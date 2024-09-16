@@ -21,10 +21,10 @@ export default function Portfolio() {
             <div className="portfolio--link-container">
                 {projects.map((project, index) => (
                     <PortfolioEntry 
-                    key={index}
-                    title={project.title}
-                    link={project.link}
-                    sourceCode={project.sourceCode}
+                        key={index}
+                        title={project.title}
+                        link={project.link}
+                        sourceCode={project.sourceCode}
                     />
                 ))}
             </div>
