@@ -62,7 +62,7 @@ body {
     text-align: center;
 }
 
-.info--website {
+.info--github {
     /* display and box model */
     margin-top: 9px;
 
@@ -73,6 +73,7 @@ body {
     font-size: 10px;
     font-weight: 400;
     text-align: center;
+    text-decoration: none;
 }
 
 .info--buttons {
@@ -175,17 +176,10 @@ button > i {
 
 /* footer */
 
-.icons {
-    display: flex;
-    justify-content: space-between;
+.footer--container {
     padding: 20px 73px;
     background-color: #161619;
     cursor: pointer;
-}
-
-.icons img, .icons .icon-github {
-    width: 30px;
-    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
