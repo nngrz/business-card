@@ -157,7 +157,7 @@ button > i {
 .portfolio--link-container {
     display: flex;
     flex-direction: column;
-} 
+}
 
 .projects {
     display: grid;
@@ -194,17 +194,17 @@ button > i {
     white-space: nowrap;
 }
   
-.bar.js-react-notes {
+.bar.js {
     width: 51.6%;
     background-color: #f1c40f;
 }
   
-.bar.css-react-notes {
+.bar.css {
     width: 40.1%;
     background-color: #8e44ad;
 }
   
-.bar.html-react-notes {
+.bar.html {
     width: 8.3%;
     background-color: #e74c3c;
 }
