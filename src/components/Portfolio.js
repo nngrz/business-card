@@ -6,7 +6,6 @@ export default function Portfolio() {
             <h2 className="portfolio--title">Portfolio</h2>
             <div className="portfolio--link-container">
                 <div className="projects">
-                    {/* project--React Notes App */}
                     <a href="https://shimmering-malasada-04a43c.netlify.app" target="_blank" rel="noopener noreferrer" className="project--link">
                         React Notes App
                     </a>
@@ -16,9 +15,9 @@ export default function Portfolio() {
                         </a>
                     </button>
                     <div className="project--technologies-bar">
-                            <div className="bar js-react-notes"></div>
-                            <div className="bar css-react-notes"></div>
-                            <div className="bar html-react-notes"></div>
+                        <div className="bar js-react-notes"></div>
+                        <div className="bar css-react-notes"></div>
+                        <div className="bar html-react-notes"></div>
                     </div>
                 </div>
             </div>
