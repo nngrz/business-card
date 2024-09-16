@@ -85,9 +85,9 @@ body {
 }
 
 button {
+    cursor: pointer;
     font-size: 14px;
     font-weight: 500;
-    cursor: pointer;
 }
 
 button > i {
@@ -95,11 +95,11 @@ button > i {
 }
 
 .btn--email {
-    /* display and box model */
     width: 115px;
     height: 34px;
     border-radius: 6px;
     border: 1px solid #D1D5DB;
+
 }
 
 .email-icon {
@@ -112,7 +112,6 @@ button > i {
     height: 34px;
     border-radius: 6px;
     border: 0;
-
     /* color */
     background-color: #5093E2;
     color: white;
@@ -169,14 +168,12 @@ button > i {
 }
 
 .project--link {
-.project--link {
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     color: #DCDCDC;
 }
 
-.project--btn {
 .project--btn {
     font-size: 10px;
     text-decoration: none;
@@ -259,17 +256,14 @@ button > i {
 }
   
 .bar.js-react-notes {
-    width: 51.6%;
     background-color: #f1c40f;
 }
   
 .bar.css-react-notes {
-    width: 40.1%;
     background-color: #8e44ad;
 }
   
 .bar.html-react-notes {
-    width: 8.3%;
     background-color: #e74c3c;
 }
 

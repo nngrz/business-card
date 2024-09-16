@@ -6,12 +6,46 @@ export default function Portfolio() {
         {
             title: "React Notes App",
             link: "https://shimmering-malasada-04a43c.netlify.app",
-            sourceCode: "https://github.com/nngrz/React-project-set/tree/main/notes_app"
+            sourceCode: "https://github.com/nngrz/React-project-set/tree/main/notes_app",
+            technologies: [
+                {
+                    percentage: 71.4,
+                    name: "JavaScript/React",
+                    classname: "bar js-react-notes"
+                },
+                {
+                    percentage: 16.3,
+                    name: "CSS",
+                    classname: "bar css-react-notes"
+                },
+                {
+                    percentage: 12.2,
+                    name: "Html",
+                    classname: "bar html-react-notes"
+                }
+            ]
         },
         {
             title: "Business Card",
             link: "https://nngrz.github.io/business-card/",
-            sourceCode: "https://github.com/nngrz/business-card"
+            sourceCode: "https://github.com/nngrz/business-card",
+            technologies: [
+                {
+                    percentage: 55.1,
+                    name: "JavaScript/React",
+                    classname: "bar js-react-notes"
+                },
+                {
+                    percentage: 37.3,
+                    name: "CSS",
+                    classname: "bar css-react-notes"
+                },
+                {
+                    percentage: 7.6,
+                    name: "Html",
+                    classname: "bar html-react-notes"
+                }
+            ]
         }
     ]
 
@@ -25,8 +59,23 @@ export default function Portfolio() {
                         title={project.title}
                         link={project.link}
                         sourceCode={project.sourceCode}
+                        technologies={project.technologies}
                     />
                 ))}
+            </div>
+            <div className="technologies--legend">
+                <div className="legend-item">
+                    <span className="legend-color js"></span> 
+                    JavaScript/React 
+                </div>
+                <div className="legend-item">
+                    <span className="legend-color css"></span> 
+                    CSS 
+                </div>
+                <div className="legend-item">
+                    <span className="legend-color html"></span> 
+                    HTML 
+                </div>
             </div>
         </div>
     )
