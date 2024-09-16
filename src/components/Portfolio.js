@@ -23,11 +23,17 @@ export default function Portfolio() {
             </div>
             <div className="technologies--legend">
                 <div class="legend-item">
-                    <span class="legend-color js"></span> JavaScript/React </div>
+                    <span class="legend-color js"></span> 
+                    JavaScript/React 
+                </div>
                 <div class="legend-item">
-                    <span class="legend-color css"></span> CSS </div>
+                    <span class="legend-color css"></span> 
+                    CSS 
+                </div>
                 <div class="legend-item">
-                    <span class="legend-color html"></span> HTML </div>
+                    <span class="legend-color html"></span> 
+                    HTML 
+                </div>
             </div>
         </div>
     )
