@@ -99,7 +99,6 @@ button > i {
     height: 34px;
     border-radius: 6px;
     border: 1px solid #D1D5DB;
-
 }
 
 .email-icon {
@@ -188,11 +187,6 @@ button > i {
     background-color: white;
     overflow: hidden;
 }
-
-.bar {
-    height: 100%;
-    white-space: nowrap;
-}
   
 .bar.js {
     background-color: #f1c40f;
@@ -206,38 +200,6 @@ button > i {
     background-color: #e74c3c;
 }
 
-.technologies--legend {
-    display: flex;
-    gap: 15px;
-}
-
-.legend-item {
-    display: flex;
-    align-items: center;
-    font-size: 10px;
-    color: white;
-}
-
-.legend-color {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin-right: 5px;
-    border-radius: 50%;
-}
-
-.legend-color.js {
-    background-color: #f1c40f;
-}
-  
-.legend-color.css {
-    background-color: #8e44ad;
-}
-  
-.legend-color.html {
-    background-color: #e74c3c;
-}
-
 .project--technologies-bar {
     display: flex;
     height: 8px;
@@ -246,21 +208,16 @@ button > i {
     background-color: white;
     overflow: hidden;
 }
-
-.bar {
-    height: 100%;
-    white-space: nowrap;
-}
   
-.bar.js-react-notes {
+.bar.js {
     background-color: #f1c40f;
 }
   
-.bar.css-react-notes {
+.bar.css {
     background-color: #8e44ad;
 }
   
-.bar.html-react-notes {
+.bar.html {
     background-color: #e74c3c;
 }
 
