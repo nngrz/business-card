@@ -85,9 +85,9 @@ body {
 }
 
 button {
-    cursor: pointer;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 button > i {
@@ -177,27 +177,6 @@ button > i {
     font-size: 10px;
     text-decoration: none;
     color: black;
-}
-
-.project--technologies-bar {
-    display: flex;
-    height: 8px;
-    margin-top: 5px;
-    border-radius: 5px;
-    background-color: white;
-    overflow: hidden;
-}
-  
-.bar.js {
-    background-color: #f1c40f;
-}
-  
-.bar.css {
-    background-color: #8e44ad;
-}
-  
-.bar.html {
-    background-color: #e74c3c;
 }
 
 .project--technologies-bar {
