@@ -228,9 +228,31 @@ button > i {
 /* footer */
 
 .footer--container {
-    padding: 20px 73px;
+    padding: 20px;
     background-color: #161619;
-    cursor: pointer;
+    text-align: center;
+}
+
+.cv--link {
+    /* display and box model */
+    padding: 5px 5px;
+    border: 2px solid #777;
+    border-radius: 5px;
+    /* color */
+    background-color: #444;
+    color: white;
+    /* text */
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    /* other */
+    transition: all 0.3s ease;
+}
+
+.cv--link:hover {
+    background-color: #777;
+    border-color: #fff;
+    color: #161619;
 }
 
 @media only screen and (max-width: 600px) {
