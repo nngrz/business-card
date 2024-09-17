@@ -11,7 +11,7 @@ export default function PortfolioEntry({title, link, sourceCode, technologies}) 
             </a>
             <div className="project--technologies-bar">
                 {technologies.map((technology, index) => (
-                    <div key={index} className={technology.classname} style={{width:`${technology.percentage}%`}}></div>
+                    <div key={index} className={`bar ${technology.classname}`} style={{width:`${technology.percentage}%`}}></div>
                 ))}
             </div>
         </div>       

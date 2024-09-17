@@ -195,17 +195,14 @@ button > i {
 }
   
 .bar.js {
-    width: 51.6%;
     background-color: #f1c40f;
 }
   
 .bar.css {
-    width: 40.1%;
     background-color: #8e44ad;
 }
   
 .bar.html {
-    width: 8.3%;
     background-color: #e74c3c;
 }
 

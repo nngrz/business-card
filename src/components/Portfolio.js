@@ -11,17 +11,17 @@ export default function Portfolio() {
                 {
                     percentage: 71.4,
                     name: "JavaScript/React",
-                    classname: "bar js"
+                    classname: "js"
                 },
                 {
                     percentage: 16.3,
                     name: "CSS",
-                    classname: "bar css"
+                    classname: "css"
                 },
                 {
                     percentage: 12.2,
                     name: "Html",
-                    classname: "bar html"
+                    classname: "html"
                 }
             ]
         },
@@ -33,17 +33,17 @@ export default function Portfolio() {
                 {
                     percentage: 55.1,
                     name: "JavaScript/React",
-                    classname: "bar js"
+                    classname: "js"
                 },
                 {
                     percentage: 37.3,
                     name: "CSS",
-                    classname: "bar css"
+                    classname: "css"
                 },
                 {
                     percentage: 7.6,
                     name: "Html",
-                    classname: "bar html"
+                    classname: "html"
                 }
             ]
         }
