@@ -174,13 +174,18 @@ button > i {
 
 .project--technologies-bar {
     display: flex;
+    width: 70px;
     height: 8px;
     margin-top: 5px;
     border-radius: 5px;
     background-color: white;
     overflow: hidden;
 }
-  
+
+.bar {
+    height: 100%; 
+}
+
 .bar.js {
     background-color: #f1c40f;
 }

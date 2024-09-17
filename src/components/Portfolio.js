@@ -19,7 +19,7 @@ export default function Portfolio() {
                     classname: "css"
                 },
                 {
-                    percentage: 12.2,
+                    percentage: 12.3,
                     name: "Html",
                     classname: "html"
                 }
